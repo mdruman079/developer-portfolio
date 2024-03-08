@@ -1,7 +1,6 @@
 /* common shared style */
 * {
-    margin: 0;
-    padding: 0;
+
     font-family: "Lato", sans-serif;
 }
 
@@ -75,13 +74,12 @@ header {
     justify-content: space-between;
 }
 
-.banner-content,
-.banner-img img {
+.banner .banner-content {
     max-width: 500px;
 }
 
 .banner .banner-img img {
-    width: 500px;
+    max-width: 500px;
     vertical-align: bottom;
 }
 
@@ -99,13 +97,17 @@ header {
 
 /* main section style */
 
-main section {
+/* main section {
     margin-top: 130px;
-}
+} */
 
 main {
+
     max-width: 1140px;
     margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
 }
 
 /* about section style */
@@ -129,7 +131,7 @@ main {
 
 /* what i do section */
 #what-i-do {
-    padding: 30px 150px;
+    padding: 30px 120px;
 }
 
 /* skill related style */
@@ -142,8 +144,7 @@ main {
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(217, 11, 11, 0.44);
-
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
 /* resume section style */
@@ -173,15 +174,16 @@ main {
 
 .download-cv {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0px 0px 0px;
 }
 
 /* footer style */
 footer {
     display: flex;
-    padding: 130px 200px;
+    padding: 130px 230px;
     margin-top: 130px;
     gap: 100px;
+    background: #FFF8F3;
 }
 
 .social-links a {
@@ -192,7 +194,7 @@ footer {
     width: 50%;
 }
 
-.contact input[type="text"],
+/* .contact input[type="text"],
 input[type="email"],
 textarea {
     display: block;
@@ -202,4 +204,4 @@ textarea {
     background: blanchedalmond;
     border: 0;
     width: 100%;
-}
+} */
