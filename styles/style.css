@@ -192,9 +192,10 @@ footer {
 
 .footer-colum {
     width: 50%;
+    text-align: left;
 }
 
-/* .contact input[type="text"],
+.contact input[type="text"],
 input[type="email"],
 textarea {
     display: block;
@@ -204,4 +205,4 @@ textarea {
     background: blanchedalmond;
     border: 0;
     width: 100%;
-} */
+}
